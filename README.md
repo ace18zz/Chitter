@@ -43,7 +43,7 @@ The Chitter App provides a platform for users to share their thoughts, similar t
 2. Install all dependencies with `npm install`.
 3. Ensure MongoDB is running on your machine or utilize a cloud-hosted cluster.
 4. Update the `.env` file with the MongoDB connection string.
-5. Start the server with `bode index.js`. It runs on port `3001` by default.
+5. Start the server with `node index.js`. It runs on port `3001` by default.
 
 ### Frontend:
 1. Go to the frontend directory.
