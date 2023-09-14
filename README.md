@@ -1,4 +1,4 @@
-# Chitter Challenge App
+# Chitter
 
 The Chitter App provides a platform for users to share their thoughts, similar to tweets, known as "peeps". This README offers a detailed overview of the project, including its structure, installation steps, features, and more.
 
