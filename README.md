@@ -1,9 +1,9 @@
-# Chitter App
+# Chitter Challenge App
 
 The Chitter Challenge App provides a platform for users to share their thoughts, similar to tweets, known as "peeps". This README offers a detailed overview of the project, including its structure, installation steps, features, and more.
 
 ## Table of Contents
-- [Chitter App](#chitter-app)
+- [Chitter Challenge App](#chitter-challenge-app)
   - [Table of Contents](#table-of-contents)
   - [Tech Stack](#tech-stack)
   - [Project Structure](#project-structure)
@@ -17,6 +17,10 @@ The Chitter Challenge App provides a platform for users to share their thoughts,
     - [Backend:](#backend-2)
     - [Frontend:](#frontend-2)
   - [Security](#security)
+  - [Screenshots](#screenshots)
+    - [Registration \& Login Page](#registration--login-page)
+    - [Main Feed](#main-feed)
+    - [Post a Peep](#post-a-peep)
 
 ## Tech Stack
 - **Backend**: Express.js with Mongoose for MongoDB interaction.
@@ -43,7 +47,7 @@ The Chitter Challenge App provides a platform for users to share their thoughts,
 2. Install all dependencies with `npm install`.
 3. Ensure MongoDB is running on your machine or utilize a cloud-hosted cluster.
 4. Update the `.env` file with the MongoDB connection string.
-5. Start the server with `npm start`. It runs on port `3001` by default.
+5. Start the server with `nodemon index.js`. It runs on port `3001` by default.
 
 ### Frontend:
 1. Go to the frontend directory.
@@ -79,4 +83,22 @@ The Chitter Challenge App provides a platform for users to share their thoughts,
 - **helmet**: The backend employs the helmet library, securing HTTP headers and countering several vulnerabilities.
 - **JWT**: JSON Web Tokens assure secure information transmission between the client and server and facilitate user authentication.
 
+## Screenshots
+
+This section provides visual insights into the Chitter Challenge App's user interface and functionalities.
+
+### Registration & Login Page
+![Registration Page](./screenshots/reg.png)
+![Login Page](./screenshots/login.png)
+- Users can sign up for a new account, providing essential details and optionally adding a profile picture.
+
+### Main Feed
+![Main Feed](./screenshots/homepage.png)
+![User Profile](./screenshots/dark.png)
+- The main feed displays peeps from all users. Each peep shows the user's name, peep content, and attached image (if any).
+- 
+### Post a Peep
+![Post a Peep](./screenshots/post.png)
+![comments](./screenshots/comment.png)
+- From this section, users can share their thoughts and attach an image.
 
